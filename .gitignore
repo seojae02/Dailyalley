@@ -1,0 +1,23 @@
+# --- 비밀정보 (절대 커밋 금지) ---
+*.env
+!*.env.example
+*-credentials.json
+hardy-crossbar-*.json
+service-account.json
+application-secret.yml
+
+# --- 빌드/의존성 ---
+node_modules/
+.next/
+out/
+build/
+.gradle/
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# --- 에디터/OS ---
+.idea/
+.vscode/
+.DS_Store
